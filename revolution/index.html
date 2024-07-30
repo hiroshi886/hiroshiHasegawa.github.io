@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>algorithm6</title>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <script src="scripts/data.js"></script>
+    <script> qnum = 0;</script>
+  </head>
+  <body>   
+    <h1></h1>
+    <div>
+      <h2></h2>
+      <h3></h3>
+    </div>
+    <p>番号を入力して、OKボタンをクリックしてください</p> 
+    <input type="text">
+    <button>OK</button>
+    <script>
+      function change()
+        {
+          qnum = qnum + 1;
+          if(qnum >= midasi.length)
+            {
+              location.href = "end.html";
+            }
+          showMidasi(midasi[qnum]);
+          showMon(mon[qnum][0]);
+          showMessage(mon[qnum][1]);
+          showMessage(mon[qnum][2]);
+          showMessage(mon[qnum][3]);
+          showMessage(mon[qnum][4]);
+        }
+    </script>
+    <input type="button" value="次のページへ" onclick="change()"/>
+    <script src="scripts/scripts.js"></script>
+  </body> 
+</html>

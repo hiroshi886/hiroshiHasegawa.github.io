@@ -1,0 +1,21 @@
+h1{
+    background-color: #99CC33;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+}
+
+li{
+    background-color: aqua;
+    width: 150px;
+    border-style:none
+}
+h2{
+    background-color: #99CC33;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    padding: auto;
+
+}

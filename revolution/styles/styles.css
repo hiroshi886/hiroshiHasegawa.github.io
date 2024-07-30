@@ -1,0 +1,31 @@
+@charset "UTF-8";
+div{
+    width: 600px;
+}
+h1{
+    background-color: aqua;
+    width: 600px;
+    height: 40px;
+    margin: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+h2{
+    background-color: #A3AA60;
+    width: 600px;
+    height: 80px;
+    margin: 20px;
+    padding-left: 20px;
+}
+h3{
+    background-color: #ffffff;
+    width: 600px;
+    height: 21px;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+
+
